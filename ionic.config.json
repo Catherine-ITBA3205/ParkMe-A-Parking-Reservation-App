@@ -1,0 +1,7 @@
+{
+  "name": "ParkME",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
