@@ -5,22 +5,23 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
+<ion-content class="form" [fullscreen]="true" color="cream">
   <center>
-  <h1 class="title">ParkMe</h1><br><br>
-  <span class="Welcome">WELCOME</span><br><br><br><br>
+    <ion-icon class="car" name="car" color="dark">
+    </ion-icon>
+  <span class="title">ParkMe</span><br><br>
+  <span class="Welcome">WELCOME!</span><br><br><br>
+
+
+  <ion-grid>
+    <ion-row>
+      <ion-col align-self-center>
+        <ion-button class="click" [routerLink]="['/signup']" expand="block" color="lightpink">Signup</ion-button>
+        <span class="divider line one-line">or</span>
+        <span class="already">Already a user?</span>
+        <ion-button class="click" [routerLink]="['/login']" expand="block" color="lightpink">Login</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
   </center>
-  <ion-card>
-    <ion-card-content>
-      <ion-icon class="person" name="person" color="light">
-      </ion-icon>
-      <span class="login"><b>Email:</b></span><br>
-      <ion-icon class="person" name="key" color="light">
-      </ion-icon>
-      <span class="login"><b>Password:</b></span>
-      <center>
-      <ion-button class="login" (click)="mainmenu()" shape="round">Login</ion-button>
-      </center>
-    </ion-card-content>
-  </ion-card>
 </ion-content>

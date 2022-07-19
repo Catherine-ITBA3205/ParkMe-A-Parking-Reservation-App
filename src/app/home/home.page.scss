@@ -25,3 +25,65 @@
 #container a {
   text-decoration: none;
 }
+
+
+.car{
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 50px;
+}
+
+.title{
+  color: #F37878;
+  font-family: CarterOne-Regular;
+  font-size: 50px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.Welcome{
+  font-family: Marcellus-Regular;
+  font-size: 40px;
+  color: black;
+}
+
+.click{
+  font-family: PlayFairDisplay-VariableFont;
+  font-size: 20px;
+}
+
+.divider {
+  display: flex;
+
+  &:before,
+  &:after {
+    content: "";
+    flex: 1;
+  }
+}
+.line{
+  align-items: center;
+    margin: 1em -1em;
+    color: black;
+
+    &:before,
+    &:after {
+      height: 1px;
+      margin: 0 1em;
+    }
+}
+.one-line {
+  &:before,
+  &:after {
+     background: black;
+  }
+}
+.form ion-grid,
+.form ion-row {
+    height: 100%;
+    justify-content: center;
+}
+.already{
+  font-family: PlayFairDisplay-VariableFont;
+  font-size: 20px;
+}

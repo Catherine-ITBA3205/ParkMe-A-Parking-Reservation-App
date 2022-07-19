@@ -24,3 +24,52 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+@font-face {
+    font-family: CarterOne-Regular;
+    src: url(/assets/fonts/CarterOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: Marcellus-Regular;
+    src: url(/assets/fonts/Marcellus-Regular);
+}
+
+@font-face {
+    font-family: PlayFairDisplay-VariableFont;
+    src: url(/assets/fonts/PlayFairDisplay-VariableFont.ttf);
+}
+
+
+.ion-color-lightpink{
+    --ion-color-base: var(--ion-color-lightpink) !important;
+    --ion-color-base-rgb: var(--ion-color-lightpink-rgb) !important;
+    --ion-color-contrast: var(--ion-color-lightpink-contrast) !important;
+    --ion-color-contrast-rgb: var(--ion-color-lightpink-contrast-rgb) !important;
+    --ion-color-shade: var(--ion-color-lightpink-shade) !important;
+    --ion-color-tint: var(--ion-color-lightpink-tint) !important;
+}
+.ion-color-redviolet{
+    --ion-color-base: var(--ion-color-redviolet) !important;
+    --ion-color-base-rgb: var(--ion-color-redviolet-rgb) !important;
+    --ion-color-contrast: var(--ion-color-redviolet-contrast) !important;
+    --ion-color-contrast-rgb: var(--ion-color-redviolet-contrast-rgb) !important;
+    --ion-color-shade: var(--ion-color-redviolet-shade) !important;
+    --ion-color-tint: var(--ion-color-redviolet-tint) !important;
+}
+.ion-color-cream{
+    --ion-color-base: var(--ion-color-cream) !important;
+    --ion-color-base-rgb: var(--ion-color-cream-rgb) !important;
+    --ion-color-contrast: var(--ion-color-cream-contrast) !important;
+    --ion-color-contrast-rgb: var(--ion-color-cream-contrast-rgb) !important;
+    --ion-color-shade: var(--ion-color-cream-shade) !important;
+    --ion-color-tint: var(--ion-color-cream-tint) !important;
+}
+.ion-color-babyblue{
+    --ion-color-base: var(--ion-color-babyblue) !important;
+    --ion-color-base-rgb: var(--ion-color-babyblue-rgb) !important;
+    --ion-color-contrast: var(--ion-color-babyblue-contrast) !important;
+    --ion-color-contrast-rgb: var(--ion-color-babyblue-contrast-rgb) !important;
+    --ion-color-shade: var(--ion-color-babyblue-shade) !important;
+    --ion-color-tint: var(--ion-color-babyblue-tint) !important;
+}
