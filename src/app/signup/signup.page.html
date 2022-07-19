@@ -1,9 +1,44 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>signup</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Signup</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+  <form>
+    <!--Firstname-->
+    <ion-item lines="full">
+      <ion-label position="floating">Firstname:</ion-label>
+      <ion-input type="text" required></ion-input>
+    </ion-item>
+
+    <!--Lastname-->
+    <ion-item lines="full">
+      <ion-label position="floating">Lastname:</ion-label>
+      <ion-input type="text" required></ion-input>
+    </ion-item>
+
+    <!--Email-->
+    <ion-item lines="full">
+      <ion-label position="floating">Email:</ion-label>
+      <ion-iput type="text" required></ion-iput>
+    </ion-item>
+    <!--Password-->
+    <ion-item lines="full">
+      <ion-label position="floating">Password:</ion-label>
+      <ion-iput type="password" required></ion-iput>
+    </ion-item>
+    <!--Confirm password-->
+
+    <!--signup button-->
+    <ion-row>
+      <ion-col>
+        <ion-button type="submit" color="danger" expand="block">Signup</ion-button>
+      </ion-col>
+    </ion-row>
+  </form>
 
 </ion-content>
