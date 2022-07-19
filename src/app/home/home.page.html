@@ -6,9 +6,21 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large"></ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <center>
+  <h1 class="title">ParkMe</h1><br><br>
+  <span class="Welcome">WELCOME</span><br><br><br><br>
+  </center>
+  <ion-card>
+    <ion-card-content>
+      <ion-icon class="person" name="person" color="light">
+      </ion-icon>
+      <span class="login"><b>Email:</b></span><br>
+      <ion-icon class="person" name="key" color="light">
+      </ion-icon>
+      <span class="login"><b>Password:</b></span>
+      <center>
+      <ion-button class="login" (click)="mainmenu()" shape="round">Login</ion-button>
+      </center>
+    </ion-card-content>
+  </ion-card>
 </ion-content>
