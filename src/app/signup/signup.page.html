@@ -24,19 +24,19 @@
     <!--Email-->
     <ion-item lines="full">
       <ion-label position="floating">Email:</ion-label>
-      <ion-iput type="text" required></ion-iput>
+      <ion-input type="email" required></ion-input>
     </ion-item>
     <!--Password-->
     <ion-item lines="full">
       <ion-label position="floating">Password:</ion-label>
-      <ion-iput type="password" required></ion-iput>
+      <ion-input type="password" required></ion-input>
     </ion-item>
     <!--Confirm password-->
 
     <!--signup button-->
     <ion-row>
       <ion-col>
-        <ion-button type="submit" color="danger" expand="block">Signup</ion-button>
+        <ion-button (click)="login()" type="submit" color="danger" expand="block">Signup</ion-button>
       </ion-col>
     </ion-row>
   </form>
