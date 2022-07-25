@@ -7,14 +7,47 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content [fullscreen]="true">
   <img class="logo" height="50px" width="100px" src="assets/logo.png"><br><br>
   
   <span class="body"><b>Find the best parking place</b></span> <br><br>
   <span class="text">Let's start Parking...</span><br>
   <span class="text">Choose the service you want.</span><br>
 
-  <ion-icon class="eye" name="eye" color="babyblue"></ion-icon>
- <!-- <span class="detail">Detail</span> -->
+  <ion-card color="cream">
+    <ion-card-content>
+      <ion-slides pager="true">
+        <ion-slide>
+          <ion-icon (click)="detail()" name="information-circle">
+          </ion-icon>
+          <h3>Details</h3>
+        </ion-slide>
+
+        <ion-slide>
+          <ion-icon (click)="slot()" name="pin">
+          </ion-icon>
+          <h3>Book Slot</h3>
+        </ion-slide>
+
+        <ion-slide>
+          <ion-icon (click)="booking()" name="book">
+          </ion-icon>
+          <h3>My Booking</h3>
+        </ion-slide>
+
+        <ion-slide>
+          <ion-icon (click)="feedback()" name="star-half">
+          </ion-icon>
+          <h3>Feedback</h3>
+        </ion-slide>
+
+        <ion-slide>
+          <ion-icon (click)="date()" name="calendar">
+          </ion-icon>
+          <h3>Parking Date</h3>
+        </ion-slide>
+       </ion-slides>
+    </ion-card-content>
+  </ion-card>
 
 </ion-content>
