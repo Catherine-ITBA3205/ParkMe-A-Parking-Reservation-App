@@ -1,13 +1,6 @@
 .card{
     margin-top: 20%;
 }
-.anya{
-    display:block;
-    margin-bottom: 2%;
-    margin-top: 10%;
-    height: 150px;
-    width: 150px;
-}
 
 .info{
 font-family: Montaga-Regular;
@@ -22,4 +15,11 @@ margin-bottom: 3%;
 display: inline-block;
 font-family: ShadowsIntoLight;
 font-size: 25px;
+}
+ion-avatar{
+    display:inline-block;
+    height: 200px;
+    width: 200px;
+  margin-top: 5%;
+  margin-left:5%;
 }

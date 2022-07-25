@@ -7,14 +7,57 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content [fullscreen]="true" class="ion-padding">
   <ion-card>
-    <ion-card-component>
+    <ion-card-content>
       <img src="assets/Audi-a3.png">
-      
-      <h3>Audi A3<br/</h3>
+      <h3>Audi A3</h3>
       <h4>P100/hr</h4>
-    </ion-card-component>
+    </ion-card-content>
   </ion-card>
 
+  <p>End time:</p>
+  
+  <ion-segment value="Today"
+              color="primary"
+              scrollable="true"
+              [(ngModel)]="segmentModel"
+              (ionChanged)="segmentChanged($event)">
+           
+              <ion-segment-button shape="round" value="Today">
+              <ion-label>Today</ion-label>
+            </ion-segment-button>
+
+            <ion-segment-button shape="round" value="Tomorrow">
+              <ion-label>Tomorrow</ion-label>
+            </ion-segment-button>
+
+            <ion-segment-button shape="round" value="Later">
+              <ion-label>Later</ion-label>
+            </ion-segment-button>
+            </ion-segment>
+
+      <ion-card *ngIf="segmentModel === 'Today'">
+        <ion-card-header>
+          <ion-card-content>
+            <center><h1>11:00 am</h1></center>
+          </ion-card-content>
+        </ion-card-header>
+      </ion-card>
+
+      <ion-card *ngIf="segmentModel === 'Tomorrow'">
+        <ion-card-header>
+          <ion-card-content>
+            <center><h1>Nothing to show</h1></center>
+          </ion-card-content>
+        </ion-card-header>
+      </ion-card>
+
+      <ion-card *ngIf="segmentModel === 'Later'">
+        <ion-card-header>
+          <ion-card-content>
+            <center><h1>Nothing to show</h1></center>
+          </ion-card-content>
+        </ion-card-header>
+      </ion-card>
 </ion-content>

@@ -19,31 +19,23 @@
     margin: 5%;
 }
 
-.logo{
-    display:block;
+ion-avatar{
+    display:inline-block;
+    height: 100px;
+    width: 100px;
   margin-top: 5%;
   margin-left:5%;
 }
-
-ion-slide{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-}
-ion-card{
-    margin-top: 15%;
-}
-
-ion-slide p{
-    color: bisque;
-}
-
-ion-icon{
-    font-size: 1000%;
-}
-
-h3{
-    font-size: 30px;
+.good{
     font-family: Montaga-Regular;
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5%;
+    margin-bottom: 15%;
+    margin-top:10%;
+}
+ion-chip{
+    margin-top: 5%;
+    margin-left: 5%;
 }
