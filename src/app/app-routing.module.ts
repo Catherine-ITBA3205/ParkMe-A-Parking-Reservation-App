@@ -50,9 +50,6 @@ const routes: Routes = [
   {
     path: 'locations',
     loadChildren: () => import('./locations/locations.module').then( m => m.LocationsPageModule)
-  },  {
-    path: 'sent',
-    loadChildren: () => import('./sent/sent.module').then( m => m.SentPageModule)
   },
 
 
