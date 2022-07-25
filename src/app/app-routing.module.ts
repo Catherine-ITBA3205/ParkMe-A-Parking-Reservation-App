@@ -38,7 +38,8 @@ const routes: Routes = [
   {
     path: 'help',
     loadChildren: () => import('./help/help.module').then( m => m.HelpPageModule)
-  },  {
+  },
+  {
     path: 'messages',
     loadChildren: () => import('./messages/messages.module').then( m => m.MessagesPageModule)
   },
@@ -49,6 +50,9 @@ const routes: Routes = [
   {
     path: 'locations',
     loadChildren: () => import('./locations/locations.module').then( m => m.LocationsPageModule)
+  },  {
+    path: 'sent',
+    loadChildren: () => import('./sent/sent.module').then( m => m.SentPageModule)
   },
 
 

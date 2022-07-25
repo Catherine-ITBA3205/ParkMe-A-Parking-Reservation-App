@@ -8,34 +8,29 @@
 </ion-header>
 
 <ion-content>
-  <ion-card>
+  <ion-card class="card">
     <ion-header>
-      <ion-card-component>
-        <ion-item>
-        <ion-label><b>To:</b></ion-label>
-        <ion-input type="text"></ion-input>
-        </ion-item>
-      </ion-card-component>
-    </ion-header>
-  </ion-card>  
-
-        <ion-card>
           <ion-card-component>
             <ion-item>
-              <ion-label><b>Subject:</b></ion-label><br/>
+              <ion-label position="floating"><b>To:</b></ion-label>
               <ion-input type="text"></ion-input>
               </ion-item>
             <ion-item>
-              <ion-label><b>Message:</b></ion-label>
+              <ion-label position="floating"><b>Subject:</b></ion-label>
+              <ion-input type="text"></ion-input>
+              </ion-item>
+            <ion-item>
+              <ion-label position="stacked"><b>Message:</b></ion-label><br/><br/><br/>
               <ion-input type="text"></ion-input>
               </ion-item>
             <center>
             <ion-row>
               <ion-col>
-                <ion-button (click)="send()" type="submit" color="danger" shape="round"><b>Send</b></ion-button>
+                <ion-button (click)="presentAlert()" color="danger" shape="round"><b>Send</b></ion-button>
               </ion-col>
             </ion-row>
             </center>   
           </ion-card-component>
+          </ion-header>
         </ion-card>   
 </ion-content>
