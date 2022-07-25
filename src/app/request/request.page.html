@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-toolbar color="danger">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Request</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-header>
+      <ion-card-component>
+        <ion-item>
+        <ion-label><b>To:</b></ion-label>
+        <ion-input type="text"></ion-input>
+        </ion-item>
+      </ion-card-component>
+    </ion-header>
+  </ion-card>  
+
+        <ion-card>
+          <ion-card-component>
+            <ion-item>
+              <ion-label><b>Subject:</b></ion-label><br/>
+              <ion-input type="text"></ion-input>
+              </ion-item>
+            <ion-item>
+              <ion-label><b>Message:</b></ion-label>
+              <ion-input type="text"></ion-input>
+              </ion-item>
+            <center>
+            <ion-row>
+              <ion-col>
+                <ion-button (click)="send()" type="submit" color="danger" shape="round"><b>Send</b></ion-button>
+              </ion-col>
+            </ion-row>
+            </center>   
+          </ion-card-component>
+        </ion-card>   
+</ion-content>
