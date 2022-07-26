@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-feedback',
@@ -7,7 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FeedbackPage implements OnInit {
 
-  constructor() { }
+  stars:number;
+  constructor(private router: Router) { 
+    this.stars=0;
+  }
+  mainmenu(){
+    this.router.navigate(['mainmenu'])
+  }
+  starClicked(i:number){
+    this.stars=i;
+  }
 
   ngOnInit() {
   }

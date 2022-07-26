@@ -8,5 +8,26 @@
 </ion-header>
 
 <ion-content>
+  <center><h1> Write a Feedback</h1></center>
+  <ion-card>
+    <ion-card-content>
+      <ion-input placeholder="Say what you think about this app"></ion-input>
+    </ion-card-content>
+  </ion-card>
 
+  <ion-item lines="none">
+    <ion-label position="stacked">How was your experience with us?</ion-label><br/>
+    <ion-buttons>
+      <ng-container *ngFor="let i of [1,2,3,4,5]">
+        <ion-button (click)="starClicked(i)">
+          <ion-icon slot="icon-only" *ngIf="i<=stars" name="star">
+          </ion-icon>
+          <ion-icon slot="icon-only" *ngIf="i>stars" name="star-outline">
+          </ion-icon>
+        </ion-button>
+      </ng-container>
+    </ion-buttons>
+  </ion-item><br/><br/>
+  <center>  <ion-button (click)="mainmenu()" type="submit" color="secondary" shape="round"><b>Send Feedback</b></ion-button>
+  </center>
 </ion-content>
