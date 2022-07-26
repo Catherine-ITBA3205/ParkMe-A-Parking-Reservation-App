@@ -50,13 +50,10 @@ const routes: Routes = [
   {
     path: 'locations',
     loadChildren: () => import('./locations/locations.module').then( m => m.LocationsPageModule)
-  },  {
-    path: 'detail',
-    loadChildren: () => import('./detail/detail.module').then( m => m.DetailPageModule)
   },
   {
-    path: 'slot',
-    loadChildren: () => import('./slot/slot.module').then( m => m.SlotPageModule)
+    path: 'detail',
+    loadChildren: () => import('./detail/detail.module').then( m => m.DetailPageModule)
   },
   {
     path: 'booking',
@@ -70,6 +67,12 @@ const routes: Routes = [
     path: 'date',
     loadChildren: () => import('./date/date.module').then( m => m.DatePageModule)
   },
+  {
+    path: 'dandd',
+    loadChildren: () => import('./dandd/dandd.module').then( m => m.DanddPageModule)
+  },
+
+
 
 
 

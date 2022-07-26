@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { SlotPageRoutingModule } from './slot-routing.module';
+import { DanddPageRoutingModule } from './dandd-routing.module';
 
-import { SlotPage } from './slot.page';
+import { DanddPage } from './dandd.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    SlotPageRoutingModule
+    DanddPageRoutingModule
   ],
-  declarations: [SlotPage]
+  declarations: [DanddPage]
 })
-export class SlotPageModule {}
+export class DanddPageModule {}

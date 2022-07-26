@@ -24,11 +24,6 @@
   </ion-chip>
 
   <ion-chip outline color="danger">
-    <ion-icon (click)="slot()" name="pin"></ion-icon>     
-    <ion-label>Book SLot</ion-label>
-  </ion-chip>
-
-  <ion-chip outline color="danger">
     <ion-icon (click)="booking()" name="book"></ion-icon>     
     <ion-label>My Booking</ion-label>
   </ion-chip>
@@ -43,11 +38,12 @@
     <ion-label>Feedback</ion-label>
   </ion-chip>
 
-  <ion-card>
+  <ion-card (click)="dandd()">
     <ion-card-content>
       <img class="first" src="assets/D&D.jfif">
       <h3><b>D & D Parking Space<br>P100/hr</b></h3>
       <h4>Q24V+4MC, villa anita sta clara batangas city p, Batangas</h4>
+      <p class="open">Open 24 hours | 09272396199</p>
     </ion-card-content>
   </ion-card>
 
@@ -56,30 +52,25 @@
       <img class="first" src="assets/SM.jfif">
       <h3><b>SM Batangas City West Parking<br>P100/hr</b></h3>
       <h4>Q348+9VP, Juaning Rd, Batangas</h4>
+      <p class="open">Open | Closes 10PM</p>
     </ion-card-content>
   </ion-card>
 
   <ion-card>
     <ion-card-content>
-      <img class="first" src="assets/SM-east.jfif">
-      <h3><b>SM Batangas City East Parking<br>P100/hr</b></h3>
-      <h4>Q34C+F39, SM Transport Terminal, Batangas</h4>
+      <img class="first" src="assets/BCL.jfif">
+      <h3><b>BCL PAY PARKING<br>P100/hr</b></h3>
+      <h4>32 D. Silang, Poblacion 19, Batangas, 4200 Batangas</h4>
+      <p class="closed">Closed</p> <p>| Opens 5AM</p>
     </ion-card-content>
   </ion-card>
 
   <ion-card>
     <ion-card-content>
-      <img class="first" src="assets/SM-south.jfif">
-      <h3><b>SM Batangas City South Parking<br>P100/hr</b></h3>
-      <h4>Q339+WR7, Concha Rd, Batangas</h4>
-    </ion-card-content>
-  </ion-card>
-
-  <ion-card>
-    <ion-card-content>
-      <img class="first" src="assets/SM-north.jfif">
-      <h3><b>SM Batangas City SNorth Parking<br>P100/hr</b></h3>
-      <h4>Q34C+Q29, Unnamed Road, Batangas</h4>
+      <img class="first" src="assets/allesandro.jfif">
+      <h3><b>Alessandro Pay Parking<br>P100/hr</b></h3>
+      <h4>P3MG+6V8, Sitio Gitna San Isidro BATANGAS CITY (Capital, 4200 Batangas</h4>
+      <p class="open">Open | Closes 10PM</p>
     </ion-card-content>
   </ion-card>
 </ion-content>

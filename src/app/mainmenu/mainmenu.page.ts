@@ -12,9 +12,6 @@ export class MainmenuPage implements OnInit {
   detail(){
     this.router.navigate(['detail'])
   }
-  slot(){
-    this.router.navigate(['slot'])
-  }
   booking(){
     this.router.navigate(['booking'])
   }
@@ -23,6 +20,9 @@ export class MainmenuPage implements OnInit {
   }
   date(){
     this.router.navigate(['date'])
+  }
+  dandd(){
+    this.router.navigate(['dandd'])
   }
 
   ngOnInit() {
