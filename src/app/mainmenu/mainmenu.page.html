@@ -38,39 +38,50 @@
     <ion-label>Feedback</ion-label>
   </ion-chip>
 
-  <ion-card (click)="dandd()">
-    <ion-card-content>
-      <img class="first" src="assets/D&D.jfif">
-      <h3><b>D & D Parking Space<br>P100/hr</b></h3>
-      <h4>Q24V+4MC, Villa Anita Sta Clara Batangas City, Batangas</h4>
-      <p class="open">Open 24 hours | 09272396199</p>
-    </ion-card-content>
-  </ion-card>
+  <ion-slides pager="true">
+    <ion-slide>
+      <ion-card (click)="dandd()">
+        <ion-card-content>
+          <img class="first" src="assets/D&D.jfif">
+          <h3><b>D & D Parking Space<br>P100/hr</b></h3>
+          <h4>Q24V+4MC, Villa Anita Sta Clara Batangas City, Batangas</h4>
+          <p class="open">Open 24 hours | 09272396199</p>
+        </ion-card-content>
+      </ion-card>
+      </ion-slide>
 
-  <ion-card (click)="sm()">
-    <ion-card-content>
-      <img class="first" src="assets/SM.jfif">
-      <h3><b>SM Batangas City West Parking<br>P100/hr</b></h3>
-      <h4>Q348+9VP, Juaning Rd, Batangas</h4>
-      <p class="open">Open | Closes 10PM</p>
-    </ion-card-content>
-  </ion-card>
+      <ion-slide>
+      <ion-card (click)="sm()">
+        <ion-card-content>
+          <img class="first" src="assets/SM.jfif">
+          <h3><b>SM Batangas City West Parking<br>P100/hr</b></h3>
+          <h4>Q348+9VP, Juaning Rd, Batangas</h4><br>
+          <p class="open"> Open </p> <p>| Closes 10PM</p>
+        </ion-card-content>
+      </ion-card>
+      </ion-slide>
 
-  <ion-card (click)="bcl()">
-    <ion-card-content>
-      <img class="first" src="assets/BCL.jfif">
-      <h3><b>BCL PAY PARKING<br>P100/hr</b></h3>
-      <h4>32 D. Silang, Poblacion 19, Batangas, 4200 Batangas</h4>
-      <p class="closed">Closed</p> <p>| Opens 5AM</p>
-    </ion-card-content>
-  </ion-card>
+      <ion-slide>
+      <ion-card (click)="bcl()">
+        <ion-card-content>
+          <img class="first" src="assets/BCL.jfif">
+          <h3><b>BCL PAY PARKING<br>P100/hr</b></h3>
+          <h4>32 D. Silang, Poblacion 19, Batangas, 4200 Batangas</h4>
+          <p class="closed">Closed</p> <p>| Opens 5AM</p>
+        </ion-card-content>
+      </ion-card>
+      </ion-slide>
+   
+      <ion-slide>
+      <ion-card (click)="allesandro()">
+        <ion-card-content>
+          <img class="first" src="assets/allesandro.jfif">
+          <h3><b>Alessandro Pay Parking<br>P100/hr</b></h3>
+          <h4>P3MG+6V8, Sitio Gitna San Isidro Batangas City, 4200 Batangas</h4>
+          <p class="open">Open </p> <p>| Closes 10PM</p>
+        </ion-card-content>
+      </ion-card>
+    </ion-slide>
+  </ion-slides>
 
-  <ion-card (click)="allesandro()">
-    <ion-card-content>
-      <img class="first" src="assets/allesandro.jfif">
-      <h3><b>Alessandro Pay Parking<br>P100/hr</b></h3>
-      <h4>P3MG+6V8, Sitio Gitna San Isidro Batangas City, 4200 Batangas</h4>
-      <p class="open">Open | Closes 10PM</p>
-    </ion-card-content>
-  </ion-card>
 </ion-content>
