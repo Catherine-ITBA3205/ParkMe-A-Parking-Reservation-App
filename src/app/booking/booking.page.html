@@ -9,4 +9,133 @@
 
 <ion-content>
 
+  <ion-segment value="Today"
+  color="primary"
+  scrollable="true"
+  [(ngModel)]="segmentModel"
+  (ionChanged)="segmentChanged($event)">
+
+  <ion-segment-button shape="round" value="Today">
+  <ion-label>Today</ion-label>
+</ion-segment-button>
+
+<ion-segment-button shape="round" value="Last Month">
+  <ion-label>Tomorrow</ion-label>
+</ion-segment-button>
+
+<ion-segment-button shape="round" value="Last Year">
+  <ion-label>Later</ion-label>
+</ion-segment-button>
+</ion-segment>
+
+  <ion-card *ngIf="segmentModel === 'Today'">
+    <ion-card-content>
+      <ion-icon class="sport" name="car-sport-sharp"></ion-icon>
+      <h1>ParkME</h1>
+    </ion-card-content>
+    <span class="divider line"></span>
+    <Center>    
+    <p>PAID PARKING</p>
+      <span class="info">
+        <b>Date:</b> 
+          <span class="subinfo">07/26/2022</span><br/>
+
+      <span class="info">
+        <b>FROM:</b> 
+          <span class="subinfo">07/26/2022</span>
+          <span class="subinfo"> 1:00 PM</span>
+      </span> <br/>
+
+      <span class="info">
+        <b>TO:</b> 
+          <span class="subinfo">07/26/2022</span>
+          <span class="subinfo"> 3:00 PM</span>
+      </span> <br/><br/><br/>
+      </span>
+
+      <span class="paid"><b>PAID : P50.00</b></span> <br/> <br/>
+     <span class="divider line"></span><br/><br/>
+
+     <img class="barcode" src="assets/barcode.png">
+      </Center>
+  </ion-card>
+
+  <ion-card *ngIf="segmentModel === 'Last Month'">
+    <ion-slides pager="true">
+      <ion-slide>
+    <ion-card-content>
+      <ion-icon class="sport" name="car-sport-sharp"></ion-icon>
+      <h1>ParkME</h1>
+    <span class="divider line"></span>
+    <Center>    
+    <p>PAID PARKING</p>
+      <span class="info">
+        <b>Date:</b> 
+          <span class="subinfo">06/16/2022</span><br/>
+
+      <span class="info">
+        <b>FROM:</b> 
+          <span class="subinfo">06/6/2022</span>
+          <span class="subinfo"> 11:00 AM</span>
+      </span> <br/>
+
+      <span class="info">
+        <b>TO:</b> 
+          <span class="subinfo">06/16/2022</span>
+          <span class="subinfo"> 11:30 AM</span>
+      </span> <br/><br/><br/>
+      </span>
+
+      <span class="paid"><b>PAID : P20.00</b></span> <br/> <br/>
+     <span class="divider line"></span><br/><br/>
+
+     <img class="barcode" src="assets/barcode.png">
+      </Center>
+    </ion-card-content>
+  </ion-slide>
+
+    <ion-slide>
+
+      <ion-card-content>
+        <ion-icon class="sport" name="car-sport-sharp"></ion-icon>
+        <h1>ParkME</h1>
+      <span class="divider line"></span>
+      <Center>    
+      <p>PAID PARKING</p>
+        <span class="info">
+          <b>Date:</b> 
+            <span class="subinfo">06/03/2022</span><br/>
+  
+        <span class="info">
+          <b>FROM:</b> 
+            <span class="subinfo">06/03/2022</span>
+            <span class="subinfo"> 03:00 PM</span>
+        </span> <br/>
+  
+        <span class="info">
+          <b>TO:</b> 
+            <span class="subinfo">06/16/2022</span>
+            <span class="subinfo"> 04:00 PM</span>
+        </span> <br/><br/><br/>
+        </span>
+  
+        <span class="paid"><b>PAID : P25.00</b></span> <br/> <br/>
+       <span class="divider line"></span><br/><br/>
+  
+       <img class="barcode" src="assets/barcode.png">
+        </Center>
+      </ion-card-content>
+
+    </ion-slide>
+</ion-slides>
+  </ion-card>
+
+  <ion-card *ngIf="segmentModel === 'Last Year'">
+    <ion-card-content>
+    <Center>    
+    <p>NOTHING TO SHOW</p>
+      </Center>
+    </ion-card-content>
+  </ion-card>
+
 </ion-content>

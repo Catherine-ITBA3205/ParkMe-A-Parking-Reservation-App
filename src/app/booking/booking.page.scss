@@ -1,0 +1,58 @@
+ion-segment{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+h1{
+    font-family: CarterOne-Regular;
+    font-size: 30px;
+    float: right;
+    vertical-align: middle;
+}
+.sport{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 100px;
+}
+.divider {
+    display: flex;
+  
+    &:before,
+    &:after {
+      content: "";
+      flex: 1;
+    }
+  }
+  .line{
+    align-items: center;
+    border: 1px dashed;
+    height: 1px;
+    margin: 0 1em;
+}
+
+p{
+    font-family: Montaga-Regular;
+    font-size: 30px;
+    color: black;
+}
+.info{
+    font-family: Montaga-Regular;
+    font-size: 18px;
+    color: black;
+}
+.subinfo{
+    font-family: Montaga-Regular;
+    font-size: 18px;
+    margin-left: 3%;
+    color: black;
+}
+
+.paid{
+    font-family: Montaga-Regular;
+    font-size: 20px;
+    color: black;
+}
+.barcode{
+    height: 60%;
+    width: 60%;
+}
