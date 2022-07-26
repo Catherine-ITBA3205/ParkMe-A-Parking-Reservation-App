@@ -3,6 +3,14 @@
 
 /** Ionic CSS Variables **/
 :root {
+  /** Purple **/
+  --ion-color-Purple: #7f7fd3;
+	--ion-color-Purple-rgb: 127,127,211;
+	--ion-color-Purple-contrast: #000000;
+	--ion-color-Purple-contrast-rgb: 0,0,0;
+	--ion-color-Purple-shade: #7070ba;
+	--ion-color-Purple-tint: #8c8cd7;
+
   /** Pastel **/
   --ion-color-pastel: #FFE6E6;
 	--ion-color-pastel-rgb: 255,230,230;
@@ -35,14 +43,13 @@
 	--ion-color-cream-shade: #dedacc;
 	--ion-color-cream-tint: #fcf9ea;
 
-  /** babyblue **/
-  --ion-color-babyblue: #C4D7E0;
-	--ion-color-babyblue-rgb: 196,215,224;
-	--ion-color-babyblue-contrast: #000000;
-	--ion-color-babyblue-contrast-rgb: 0,0,0;
-	--ion-color-babyblue-shade: #acbdc5;
-	--ion-color-babyblue-tint: #cadbe3;
-
+  /** yellow **/
+  --ion-color-yellow: #deb232;
+	--ion-color-yellow-rgb: 222,178,50;
+	--ion-color-yellow-contrast: #000000;
+	--ion-color-yellow-contrast-rgb: 0,0,0;
+	--ion-color-yellow-shade: #c39d2c;
+	--ion-color-yellow-tint: #e1ba47;
   /** primary **/
   --ion-color-primary: #3880ff;
   --ion-color-primary-rgb: 56, 128, 255;

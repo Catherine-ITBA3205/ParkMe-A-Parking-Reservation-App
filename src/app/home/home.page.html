@@ -1,11 +1,11 @@
 <ion-header [translucent]="true">
-  <ion-toolbar color="danger">
+  <ion-toolbar color="secondary">
     <ion-title>
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content class="form" [fullscreen]="true" color="cream">
+<ion-content class="form" [fullscreen]="true">
   <center>
     <img class="logo" height="150px" width="250px" src="assets/logo.png">
   <span class="Welcome">WELCOME!</span><br><br><br>
@@ -14,10 +14,10 @@
   <ion-grid>
     <ion-row>
       <ion-col align-self-center>
-        <ion-button class="click" [routerLink]="['/signup']" expand="block" color="lightpink"><b>Sign up</b></ion-button>
+        <ion-button class="click" [routerLink]="['/signup']" expand="block" color="secondary"><b>Sign up</b></ion-button>
         <span class="divider line one-line">or</span>
         <span class="already">Already a user?</span>
-        <ion-button class="click" [routerLink]="['/login']" expand="block" color="lightpink"><b>Login</b></ion-button>
+        <ion-button class="click" [routerLink]="['/login']" expand="block" color="secondary"><b>Login</b></ion-button>
       </ion-col>
     </ion-row>
   </ion-grid>
