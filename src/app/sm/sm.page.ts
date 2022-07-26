@@ -3,11 +3,11 @@ import { Router } from '@angular/router';
 import { AlertController } from '@ionic/angular';
 
 @Component({
-  selector: 'app-dandd',
-  templateUrl: './dandd.page.html',
-  styleUrls: ['./dandd.page.scss'],
+  selector: 'app-sm',
+  templateUrl: './sm.page.html',
+  styleUrls: ['./sm.page.scss'],
 })
-export class DanddPage implements OnInit {
+export class SmPage implements OnInit {
 
   constructor(private alertController: AlertController, private router: Router) { }
   async presentAlert() {

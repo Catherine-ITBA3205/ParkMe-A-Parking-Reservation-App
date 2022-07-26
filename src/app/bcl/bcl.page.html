@@ -1,0 +1,54 @@
+<ion-header>
+  <ion-toolbar color="danger">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>bcl</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <center>
+    <p class="title">Book a Slot</p>
+  <img src="assets/BCL-map.png"></center>
+  
+  <ion-list>
+    <ion-item>
+      <ion-label>
+        <span class="park">BCL Pay Parking</span>
+        <span class="info">Parking Lot</span>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+  
+  <ion-item lines="none">
+    <ion-icon name="location-outline"></ion-icon>
+    <ion-label>
+      <p>32 D. Silang, Poblacion 19,<br>
+         Batangas, 4200 Batangas</p>
+    </ion-label>
+  </ion-item>
+  
+  <ion-item lines="none">
+    <ion-icon name="time-outline"></ion-icon>
+    <ion-label>
+      <p class="closed">Closed</p> <p>Opens 5AM</p>
+    </ion-label>
+  </ion-item>
+  
+  <ion-item>
+    <ion-icon name="call-outline"></ion-icon>
+    <ion-label>
+      <p>(043) 722 2473</p>
+    </ion-label>
+  </ion-item>
+  
+  <center>
+    <ion-row>
+      <ion-col>
+        <ion-button (click)="presentAlert()" color="primary" shape="round"><b>Book</b></ion-button>
+      </ion-col>
+    </ion-row>
+    </center>  
+    
+</ion-content>
