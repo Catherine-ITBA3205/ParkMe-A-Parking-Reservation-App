@@ -70,7 +70,19 @@ const routes: Routes = [
   {
     path: 'dandd',
     loadChildren: () => import('./dandd/dandd.module').then( m => m.DanddPageModule)
+  },  {
+    path: 'sm',
+    loadChildren: () => import('./sm/sm.module').then( m => m.SmPageModule)
   },
+  {
+    path: 'bcl',
+    loadChildren: () => import('./bcl/bcl.module').then( m => m.BclPageModule)
+  },
+  {
+    path: 'allesandro',
+    loadChildren: () => import('./allesandro/allesandro.module').then( m => m.AllesandroPageModule)
+  },
+
 
 
 

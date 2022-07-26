@@ -24,6 +24,15 @@ export class MainmenuPage implements OnInit {
   dandd(){
     this.router.navigate(['dandd'])
   }
+  sm(){
+    this.router.navigate(['sm'])
+  }
+  bcl(){
+    this.router.navigate(['bcl'])
+  }
+  allesandro(){
+    this.router.navigate(['allesandro'])
+  }
 
   ngOnInit() {
   }
