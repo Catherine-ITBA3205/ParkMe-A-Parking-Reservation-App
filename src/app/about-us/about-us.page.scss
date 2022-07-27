@@ -1,16 +1,18 @@
-.cath{
-    display: inline-block;
-    margin-top: 10%;
-    margin-left: 5%;
-    height: 150px;
-    width: 150px;
+h1{
+    font-family: CormorantSC-SemiBold;
+    margin-top: 5%;
 }
-
-.text{
+ion-avatar{
+    height: 25%;
+    width: 40%;
+    margin-left: 5%;
+}
+.info{
+    font-family: Montaga-Regular;
+    font-size: 20px;
     display: inline-block;
-    text-align: justify;
     vertical-align: top;
-    margin-top: 25%;
-    margin-left: 8%;
-
+    margin-left: 5%;
+    margin-bottom: 15%;
+    margin-top:10%;
 }
