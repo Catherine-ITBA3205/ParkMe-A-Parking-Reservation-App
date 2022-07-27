@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { AlertController } from '@ionic/angular';
 
 @Component({
   selector: 'app-feedback',
@@ -9,7 +10,7 @@ import { Router } from '@angular/router';
 export class FeedbackPage implements OnInit {
 
   stars:number;
-  constructor(private router: Router) { 
+  constructor(private router: Router, private alertController: AlertController) { 
     this.stars=0;
   }
   mainmenu(){
@@ -18,6 +19,22 @@ export class FeedbackPage implements OnInit {
   starClicked(i:number){
     this.stars=i;
   }
+  async presentAlert() {
+    const alert = await this.alertController.create({
+      header: 'Feedback',
+      message: 'Thank you for you feedback!',
+      buttons: [{
+        text: 'OK',
+        handler: () => {
+          console.log('Confirmed');
+          this.router.navigate(['mainmenu'])
+        }
+    }]
+    });
+
+    await alert.present();
+  }
+
 
   ngOnInit() {
   }
