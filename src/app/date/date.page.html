@@ -3,12 +3,19 @@
     <ion-buttons slot="start">
       <ion-back-button></ion-back-button>
     </ion-buttons>
-    <ion-title>Parking Date</ion-title>
+    <ion-title></ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content [fullscreen]="true">
   
-  <center>  <ion-datetime></ion-datetime> </center>
+ <ion-datetime #datetime>
+    <span slot="title"> Choose Your Desired Time & Date</span>
+    <ion-buttons slot="buttons">
+      <ion-button color="danger" (click)="datetime.reset()">Reset</ion-button>
+     <ion-button color="primary" (click)="datetime.cancel()">Cancel</ion-button>
+     <ion-button color="primary" (click)="datetime.confirm()">Done</ion-button>
+    </ion-buttons>
+ </ion-datetime>
 
 </ion-content>

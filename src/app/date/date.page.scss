@@ -1,5 +1,13 @@
 ion-datetime{
+    height: 70%;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 10%;
-    height: 80%;
-    width: 80%;
+    margin-bottom: auto;
+    --background: #fff1f2;
+    --background-rgb: 255,241,242;
+    
+    border-radius: 16px;
+    box-shadow: rgba(var(--ion-color-rose-rgb), 0.3) 0px 10px 15px -3px;
 }
