@@ -9,21 +9,9 @@ import { AlertController } from '@ionic/angular';
 })
 export class DanddPage implements OnInit {
 
-  constructor(private alertController: AlertController, private router: Router) { }
-  async presentAlert() {
-    const alert = await this.alertController.create({
-      header: 'Book a Slot',
-      message: 'Parking space has been booked!',
-      buttons: [{
-        text: 'OK',
-        handler: () => {
-          console.log('Confirmed');
-          this.router.navigate(['mainmenu'])
-        }
-    }]
-    });
-
-    await alert.present();
+  constructor(private router: Router) { }
+  date(){
+    this.router.navigate(['date'])
   }
 
   ngOnInit() {
