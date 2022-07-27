@@ -8,23 +8,14 @@
 </ion-header>
 
 <ion-content [fullscreen]="true" class="ion-padding">
-  <ion-card>
-    <ion-card-content>
-      <img src="assets/Audi-a3.png">
-      <h3>Audi A3</h3>
-      <h4>P100/hr</h4>
-    </ion-card-content>
-  </ion-card>
 
-  <p>End time:</p>
-  
   <ion-segment value="Today"
               color="primary"
               scrollable="true"
               [(ngModel)]="segmentModel"
               (ionChanged)="segmentChanged($event)">
            
-              <ion-segment-button shape="round" value="Today">
+              <ion-segment-button shape="round" value="Today" checked>
               <ion-label>Today</ion-label>
             </ion-segment-button>
 
@@ -38,10 +29,15 @@
             </ion-segment>
 
       <ion-card *ngIf="segmentModel === 'Today'">
+
         <ion-card-header>
           <ion-card-content>
-            <center><h1>1:00 PM</h1>
-                    <p>D & D Parking Space</p></center>
+            <img src="assets/Audi-a3.png">
+            <h3>Audi A3</h3>
+            <h4>P100/hr</h4>
+            <p>D & D Parking Space</p>
+            <p>1:00 PM - 3:00 PM</p>
+            <p class="paid"><b>PAID</b></p>
           </ion-card-content>
         </ion-card-header>
       </ion-card>

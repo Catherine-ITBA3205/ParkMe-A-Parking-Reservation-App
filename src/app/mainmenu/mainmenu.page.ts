@@ -18,8 +18,8 @@ export class MainmenuPage implements OnInit {
   feedback(){
     this.router.navigate(['feedback'])
   }
-  date(){
-    this.router.navigate(['date'])
+  locations(){
+    this.router.navigate(['locations'])
   }
   dandd(){
     this.router.navigate(['dandd'])

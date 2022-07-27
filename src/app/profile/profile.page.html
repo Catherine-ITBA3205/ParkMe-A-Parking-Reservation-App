@@ -11,8 +11,8 @@
 </ion-header>
 
 <ion-content>
-  <ion-card class="card" color="pastel">
-    <ion-card-component>
+  <ion-card class="card">
+    <ion-card-content>
       <center>
         <ion-avatar>
           <img src="assets/anya.jpg">
@@ -37,23 +37,43 @@
       <span class="info">
       <b>Emergency Contact:</b> 
         <span class="subinfo"> 099-876-5432</span>
-      </span><br/>
+      </span>
+      </ion-card-content>
+  </ion-card>
 
-      <span class="info">
-        <b>Vehicle Type:</b> 
-          <span class="subinfo">Small Family Car</span>
-        </span><br/>
+  <ion-card>
+    <ion-slides pager="true">
+      <ion-slide>
+        <ion-card-content>
+          <img src="assets/Audi-a3.png">
+          <span class="vehicle"><b>Vehicle Type:</b></span>
+          <span class="vinfo"> Small Family Car</span> <br/>
 
-        <span class="info">
-          <b>Vehicle Model:</b> 
-            <span class="subinfo">Audi A3</span>
-          </span><br/>
+          <span class="vehicle"><b>Vehicle Model:</b></span>
+          <span class="vinfo"> Audi A3</span> <br/>
 
-          <span class="info">
-            <b>Vehicle Plate Number:</b> 
-              <span class="subinfo">TGF 338</span>
-            </span>
-          </ion-card-component>
+          <span class="vehicle"><b>Vehicle Plate Number:</b></span>
+          <span class="vinfo"> TGF 338</span>
+
+        </ion-card-content>
+      </ion-slide>
+
+      <ion-slide>
+        <ion-card-content>
+          <img class="mazda" src="assets/mazda-cx5.png"><br/><br/>
+          <span class="vehicle"><b>Vehicle Type:</b></span>
+          <span class="vinfo"> Compact Crossover SUV</span> <br/>
+
+          <span class="vehicle"><b>Vehicle Model:</b></span>
+          <span class="vinfo"> Mazda CX5</span> <br/>
+
+          <span class="vehicle"><b>Vehicle Plate Number:</b></span>
+          <span class="vinfo"> NCI 456</span>
+
+        </ion-card-content>
+      </ion-slide>
+
+    </ion-slides>
   </ion-card>
   
 

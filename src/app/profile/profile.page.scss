@@ -1,5 +1,5 @@
 .card{
-    margin-top: 20%;
+    margin-top: 5%;
 }
 
 .info{
@@ -14,12 +14,29 @@ margin-bottom: 3%;
 .subinfo{
 display: inline-block;
 font-family: Montaga-Regular;
-font-size: 23px;
+font-size: 16px;
 }
 ion-avatar{
     display:inline-block;
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
   margin-top: 5%;
   margin-left:5%;
+}
+
+.vehicle{
+  font-family: Montaga-Regular;
+  font-size: 18px;
+  display: inline-block;
+}
+.vinfo{
+  font-family: Montaga-Regular;
+font-size: 16px;
+display: inline-block;
+margin-left: 2%;
+}
+
+.mazda{
+  height: 75%;
+  width: 75%;
 }
