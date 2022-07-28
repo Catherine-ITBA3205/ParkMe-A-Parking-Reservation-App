@@ -1,0 +1,215 @@
+<ion-header>
+  <ion-toolbar color="secondary">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <center>
+    <h1>Choose your spot</h1>
+  </center>
+  
+ <ion-slides pager="true">
+  <ion-slide>
+
+    <ion-card>
+      <ion-card-content>
+        <img src="assets/car.png"><br/>
+        <h1  class="vehicle">Car</h1><br/>
+        <ion-button shape="round" color="secondary">OK</ion-button>
+
+      </ion-card-content>
+    </ion-card>
+  </ion-slide>
+
+  <ion-slide>
+
+    <ion-card>
+      <ion-card-content>
+        <img src="assets/scooter.png"><br/>
+        <h1  class="vehicle">Scooter</h1><br/>
+        <ion-button shape="round" color="secondary">OK</ion-button>
+
+      </ion-card-content>
+    </ion-card>
+  </ion-slide>
+
+  <ion-slide>
+
+    <ion-card>
+      <ion-card-content>
+        <img src="assets/truck.png"><br/>
+        <h1  class="vehicle">Truck</h1><br/>
+        <ion-button shape="round" color="secondary">OK</ion-button>
+
+      </ion-card-content>
+    </ion-card>
+  </ion-slide>
+
+  <ion-slide>
+
+    <ion-card>
+      <ion-card-content>
+        <img src="assets/bus.png"><br/>
+        <h1  class="vehicle">Bus</h1><br/>
+        <ion-button shape="round" color="secondary">OK</ion-button>
+
+      </ion-card-content>
+    </ion-card>
+  </ion-slide>
+
+ </ion-slides>
+ 
+ <ion-segment value="Zone A"
+ color="primary"
+ scrollable="true"
+ [(ngModel)]="segmentModel"
+ (ionChanged)="segmentChanged($event)">
+
+ <ion-segment-button shape="round" value="Zone A">
+  <ion-label>Zone A</ion-label>
+</ion-segment-button>
+
+<ion-segment-button shape="round" value="Zone B">
+  <ion-label>Zone B</ion-label>
+</ion-segment-button>
+</ion-segment>
+
+<ion-card *ngIf="segmentModel === 'Zone A'">
+  <ion-card-content>
+    <center>
+    <ion-grid>
+     <!--First Row-->
+      <ion-row>
+        <ion-col>
+          <div>A1</div>
+        </ion-col>
+        
+        <ion-col>
+          <div>A6</div>
+        </ion-col>
+      </ion-row>
+
+      <!--Second Row-->
+      <ion-row>
+        <ion-col>
+          <div>A2</div>
+        </ion-col>
+
+        <ion-col>
+          <div>A7</div>
+        </ion-col>
+      </ion-row>
+
+       <!--Third Row-->
+       <ion-row>
+        <ion-col>
+          <div>A3</div>
+        </ion-col>
+
+        <ion-col>
+          <div>A8</div>
+        </ion-col>
+      </ion-row>
+
+       <!--Fourth Row-->
+       <ion-row>
+        <ion-col>
+          <div>A4</div>
+        </ion-col>
+
+        <ion-col>
+          <div>A9</div>
+        </ion-col>
+      </ion-row>
+
+       <!--Fifth Row-->
+       <ion-row>
+        <ion-col>
+          <div>A5</div>
+        </ion-col>
+
+        <ion-col>
+          <div>A10</div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    </center>
+  </ion-card-content>
+</ion-card>
+
+<ion-card *ngIf="segmentModel === 'Zone B'">
+  <ion-card-content>
+    <center>
+    <ion-grid>
+     <!--First Row-->
+      <ion-row>
+        <ion-col>
+          <div>B1</div>
+        </ion-col>
+        
+        <ion-col>
+          <div>B6</div>
+        </ion-col>
+      </ion-row>
+
+      <!--Second Row-->
+      <ion-row>
+        <ion-col>
+          <div>B2</div>
+        </ion-col>
+
+        <ion-col>
+          <div>B7</div>
+        </ion-col>
+      </ion-row>
+
+       <!--Third Row-->
+       <ion-row>
+        <ion-col>
+          <div>B3</div>
+        </ion-col>
+
+        <ion-col>
+          <div>B8</div>
+        </ion-col>
+      </ion-row>
+
+       <!--Fourth Row-->
+       <ion-row>
+        <ion-col>
+          <div>B4</div>
+        </ion-col>
+
+        <ion-col>
+          <div>B9</div>
+        </ion-col>
+      </ion-row>
+
+       <!--Fifth Row-->
+       <ion-row>
+        <ion-col>
+          <div>B5</div>
+        </ion-col>
+
+        <ion-col>
+          <div>B10</div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    </center>
+  </ion-card-content>
+</ion-card>
+
+<ion-item>
+  <ion-input placeholder="Choose your spot" type="text"></ion-input>
+</ion-item><br/>
+
+<center>
+  <ion-button (click)="presentAlert()" color="primary" shape="round"><b>Confirm</b></ion-button>
+  </center>  
+</ion-content>
