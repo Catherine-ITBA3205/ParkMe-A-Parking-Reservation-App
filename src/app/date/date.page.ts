@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-date',
@@ -8,7 +9,11 @@ import { Component, OnInit } from '@angular/core';
 export class DatePage implements OnInit {
 
 
-  constructor() { }
+  constructor(private router: Router) { }
+  spot(){
+    this.router.navigate(['spot'])
+
+  }
 
   ngOnInit() {
   }

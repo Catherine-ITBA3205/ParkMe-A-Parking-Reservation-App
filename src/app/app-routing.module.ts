@@ -82,6 +82,10 @@ const routes: Routes = [
     path: 'allesandro',
     loadChildren: () => import('./allesandro/allesandro.module').then( m => m.AllesandroPageModule)
   },
+  {
+    path: 'spot',
+    loadChildren: () => import('./spot/spot.module').then( m => m.SpotPageModule)
+  },
 
 
 
