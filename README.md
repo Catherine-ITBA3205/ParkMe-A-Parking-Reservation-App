@@ -13,4 +13,7 @@
 ![11](https://user-images.githubusercontent.com/89571362/181762322-5a3ab023-fd13-49a5-8322-64e051a1d75f.png)
 <h3>Goal 11: Sustainable cities and communities</h3> Rapid urbanization, owing to rising populations and migration, has resulted in a growth in megacities, particularly in developing countries, and slums are becoming a more prominent component of urban life. Attempts to build and develop cities and other human habitation so that everyone has access to essential services, electricity, housing, transportation, and green public areas while reducing resource use and environmental effect.
 
+![11 2](https://user-images.githubusercontent.com/89571362/181770855-5787cd49-d734-4236-a191-6eb8f1b45faa.png)
+
+
 <h2> Significance of the Proposed Project </h2>
