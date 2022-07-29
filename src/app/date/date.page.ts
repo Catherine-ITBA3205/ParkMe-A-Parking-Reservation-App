@@ -8,7 +8,6 @@ import { Router } from '@angular/router';
 })
 export class DatePage implements OnInit {
 
-
   constructor(private router: Router) { }
   spot(){
     this.router.navigate(['spot'])
