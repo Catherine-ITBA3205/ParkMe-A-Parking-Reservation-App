@@ -1,4 +1,4 @@
-# ParkMe-A-Parking-Reservation-App
+<h1 align= "center"> ParkMe-A-Parking-Reservation-App </h1>
 
 <h2> Introduction </h2>
 
