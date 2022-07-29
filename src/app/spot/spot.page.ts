@@ -9,7 +9,12 @@ import { AlertController } from '@ionic/angular';
 })
 export class SpotPage implements OnInit {
 
+
   constructor(private alertController: AlertController, private router: Router) { }
+
+   changeColor(){
+   }
+
   async presentAlert() {
     const alert = await this.alertController.create({
       header: 'Thank You!',

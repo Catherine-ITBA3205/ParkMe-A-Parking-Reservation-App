@@ -1,18 +1,48 @@
+ion-title{
+    font-family: CormorantSC-SemiBold;
+    font-size: 25px;
+}
+
 h1{
     font-family: CormorantSC-SemiBold;
     margin-top: 5%;
 }
-ion-avatar{
-    height: 25%;
-    width: 40%;
-    margin-left: 5%;
+p{
+    font-family: Montaga-Regular;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+}
+img{
+    height: 30%;
+    width: 60%;
+
+}
+.right{
+    height: 30%;
+    width: 60%;
+    margin-right: 2%;
+    float: right;
+    display: block;
 }
 .info{
-    font-family: Montaga-Regular;
-    font-size: 20px;
-    display: inline-block;
-    vertical-align: top;
+    font-family: PlayFairDisplay-VariableFont;
+    color: black;
+    float: left;
     margin-left: 5%;
-    margin-bottom: 15%;
-    margin-top:10%;
+    font-size: 15px;
+}
+.right-info{
+    font-family: PlayFairDisplay-VariableFont;
+    color: black;
+    float: right;
+    font-size: 15px;
+    margin-right: 5%;
+    display: block;
+}
+.rox
+    img{
+        height: 45%;
+        width: 90%;
 }
