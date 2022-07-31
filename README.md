@@ -3,6 +3,7 @@
 <h1 align= "center"> ParkMe: A Parking Reservation App </h1>
 
 <h2> Introduction </h2>
+<p> The first thing that a driver should consider when driving is parking, and finding a place to park in a certain place can take a lot of time, especially in the cities. These parking spaces that are difficult to discover, expensive or inadequate have a tendency to frustrate drivers. Dealing with the street-side parking, the sidewalks are compromised and create problems. With the cause of parking in an inappropriate place, this can result in three situations: theft, an increase in traffic congestion, and frustration for a lot of drivers. Aiming to solve this problem, the implementation of the Parking Reservation App in a city is essential. This app will let drivers make a reservation for a parking space in a different area at anytime, anywhere. </p>
 
 
 <h2> Purpose and Description </h2>
