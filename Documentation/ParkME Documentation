@@ -15,3 +15,16 @@ essential from the very start of the process.
 Beta Testing and Review - sprint-based frequent delivery of program software. Feedback on testing and any adjustments are essential. 
 
 Site Launch – After testing, the mobile application will be made available for use by the user.
+
+
+
+SYSTEM ARCHITECURE
+
+![USE CASE (2)](https://user-images.githubusercontent.com/89571362/182377275-b6f76b04-7e47-48ce-bcf7-a7a96a200ecb.png)
+
+![SEQUENCE](https://user-images.githubusercontent.com/89571362/182377347-43a8b2fe-aab7-4753-8da7-8fcbe6685518.png)
+
+The following diagrams are provided by the team to demonstrate how users interact with the application. It displays that a user may book a parking space in advance so that they won't bother other vehicles and can save time for themselves.
+
+Another feature is that the app itself allows the user to pay for the parking space.
+
