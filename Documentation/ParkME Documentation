@@ -1,3 +1,13 @@
+Project Description
+Parking takes a lot of time as parking spaces are difficult to discover. There are places that provide parking spaces but are expensive and inadequate. 
+Streetside parking, on the other hand, is not totally efficient as some problems arise with it. With the cause of parking in inappropriate places, accidents 
+tend to occur. The implementation of the Parking Reservation App tends to cater to these problems being faced with regard to parking spaces. The application
+would let drivers reserve a parking space that is convenient for them at anytime, anywhere. The Parking Reservation App aims to implement its service by cutting 
+down the time spent on manually looking for parking spots throughout Batangas City. The application would be of great service to both drivers and parking 
+management as the payment would be done online as soon as the driver chose a parking space. Due to its online interactions, the time it takes to serve a user 
+is greatly decreased. The parking management side would also be able to store the data about their customers' information more easily and securely. Along with 
+the parking regulations, the implementation of a parking reservation solution would be a great improvement for parking areas in Batangas City.
+
 AGILE METHODOLOGY
 
 The system was developed using the Agile Development Model. The developers chose this model because they think it could result in
