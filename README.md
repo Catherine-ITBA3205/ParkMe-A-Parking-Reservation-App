@@ -9,6 +9,10 @@
 <h2> Purpose and Description </h2>
 <p>Parking takes a significant amount of time because spots are hard to find. There are locations that offer parking spaces, however they are pricey and insufficient. On the other hand, streetside parking has various issues that make it less effective. Accidents frequently result from parking in inappropriate locations. These issues with parking places are generally addressed by the introduction of the Parking Reservation App. </p>
 <p>Drivers may use the application to reserve a parking spot whenever and wherever it is convenient for them. By decreasing the amount of time spent manually searching for parking spaces across Batangas City, the PARKME Reservation App seeks to put its service into action. As soon as a driver selects a parking place, the payment is made online, which is a significant convenience for both drivers and parking administration. The amount of time it takes to serve a user is significantly reduced as a result of its online interactions. Additionally, the parking management side would find it simpler and safer to maintain the information pertaining to their client.</p>
+<p>To develop a mobile application that will enable drivers to locate and reserve a parking space online.</p>
+<p>To establish possible solutions to the problem of finding a parking space in different areas that unnecessarily consumes time.</p>
+<p>To reduce oil consumption and air pollution.</p>
+<p>To provide a more convenient life for the society.</p>
 
 
 <h2> Scope </h2>
