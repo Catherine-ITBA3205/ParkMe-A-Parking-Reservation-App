@@ -11,7 +11,9 @@
 <p>Drivers may use the application to reserve a parking spot whenever and wherever it is convenient for them. By decreasing the amount of time spent manually searching for parking spaces across Batangas City, the PARKME Reservation App seeks to put its service into action. As soon as a driver selects a parking place, the payment is made online, which is a significant convenience for both drivers and parking administration. The amount of time it takes to serve a user is significantly reduced as a result of its online interactions. Additionally, the parking management side would find it simpler and safer to maintain the information pertaining to their client.</p>
 
 
-
+<h2> Scope </h2>
+<p>The project focuses on how we can help the Batangas City community by allowing drivers to view different parking spaces and select specific places to see if a parking space is available or not.  We will also be able to deliver more convenience to the drivers with the help of our application. Our team developed Parkner, an app for drivers who struggle and waste their time looking for the best and safe parking area of their vehicles. We've provided a simple user interface that everyone may use. We test these applications after it is finalized to ensure that they are functional and accessible.
+</p>
 
 <h2> Sustainable Development Goals (SDGs) </h2>
 
