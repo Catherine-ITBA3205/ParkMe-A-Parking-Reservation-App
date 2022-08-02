@@ -28,3 +28,5 @@
 
 
 <h2> Significance of the Proposed Project </h2>
+<p>Drivers want to choose their ideal parking spot. The Parking Reservation Application uses real-time data and apps to keep users informed about available and unavailable parking spots. The aim was to implement the process and cut down on time spent manually looking for the ideal parking spot in Batangas City. For both drivers and parking management, the application will be a lot faster and easier. Because even the payment is done online, the time it takes to serve a user is greatly decreased. On the parking management side, this technology will assist them in keeping their data more secure such as customer information. Together with parking regulation, implementing a parking reservation solution would surely be a great investment for areas in Batangas City. If you download the app, you will be prompted to register your name before proceeding to the following screen, where you will select a time and day for booking an available parking space in a specific area.
+</p>
